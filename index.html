@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Note From Cambridge Band</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body onload="rotateGalleryItems()">
+    <main>
+        <section class="hero">
+            <h1>WE <span id="love">LOVE</span> YOU!!</h1>
+
+            <div class="container">
+                <div class="left">
+                    <h1 id="from">FROM YOUR BAND,</h1>
+                    <p>
+                        Thank you for everything you do for us.
+                        We see how many little fires you put out every day, and how much time you give up to make this program feel like a second
+                        home instead of the disaster it would be without you.
+                        Whether it’s waking up at before sunrise for jazz, or just making class something we actually look forward to,
+                        you make this whole thing work. We appreciate you more than we ever say out loud, so here’s at least something to show it.
+                    </p>
+                    <div class="img-container">
+                        <figure>
+                            <img src="image1.jpg">
+                            <figcaption>FCMBE</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image2.jpg">
+                            <figcaption>BOA ATL</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <video controls playsinline style="transform: rotate(-5deg);">
+                        <source src="lily.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="macy.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="sam.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="sawyer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="jackson.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="lawson.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="lena.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls playsinline>
+                        <source src="sarah.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="notes">
+            <h2 class="section-title">Notes From the Band</h2>
+            <div class="stack" aria-hidden="false"></div>
+            <div class="notes-grid hidden" aria-hidden="true"></div>
+        </section>
+
+        <footer>~the cambridge band</footer>
+    </main>
+</body>
+</html>
